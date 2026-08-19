@@ -1,0 +1,44 @@
+<svg width="620" height="260" viewBox="0 0 620 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f5d4"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+  </defs>
+  <rect width="620" height="260" fill="#0d1117"/>
+
+  <!-- repeat this block per skill: adjust y, label, width%, delay -->
+  <g font-family="'Courier New',monospace" font-size="14" fill="#e6edf3">
+
+    <text x="20" y="30">JavaScript / TypeScript</text>
+    <rect x="20" y="40" width="580" height="8" fill="#21262d" rx="4"/>
+    <rect x="20" y="40" width="0" height="8" fill="url(#bar)" rx="4">
+      <animate attributeName="width" from="0" to="520" dur="1.4s" begin="0.2s" fill="freeze"/>
+    </rect>
+
+    <text x="20" y="80">React / Next.js</text>
+    <rect x="20" y="90" width="580" height="8" fill="#21262d" rx="4"/>
+    <rect x="20" y="90" width="0" height="8" fill="url(#bar)" rx="4">
+      <animate attributeName="width" from="0" to="470" dur="1.4s" begin="0.4s" fill="freeze"/>
+    </rect>
+
+    <text x="20" y="130">Node.js / APIs</text>
+    <rect x="20" y="140" width="580" height="8" fill="#21262d" rx="4"/>
+    <rect x="20" y="140" width="0" height="8" fill="url(#bar)" rx="4">
+      <animate attributeName="width" from="0" to="440" dur="1.4s" begin="0.6s" fill="freeze"/>
+    </rect>
+
+    <text x="20" y="180">Python</text>
+    <rect x="20" y="190" width="580" height="8" fill="#21262d" rx="4"/>
+    <rect x="20" y="190" width="0" height="8" fill="url(#bar)" rx="4">
+      <animate attributeName="width" from="0" to="390" dur="1.4s" begin="0.8s" fill="freeze"/>
+    </rect>
+
+    <text x="20" y="230">DevOps / Cloud</text>
+    <rect x="20" y="240" width="580" height="8" fill="#21262d" rx="4"/>
+    <rect x="20" y="240" width="0" height="8" fill="url(#bar)" rx="4">
+      <animate attributeName="width" from="0" to="330" dur="1.4s" begin="1.0s" fill="freeze"/>
+    </rect>
+
+  </g>
+</svg>
